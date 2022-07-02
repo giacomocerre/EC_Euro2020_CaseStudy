@@ -3,6 +3,7 @@ Contains three files such as:
 - `data_complete.json`
 - `final_user_classification.json`
 - `hashtags_classification.json`
+- `pos.pkl`
 
 
 ## `data_complete.json`
@@ -36,3 +37,6 @@ A numerical value was associated with each hashtag in the dataset:
 - ±3 if the hashtag expresses a position strongly against (+)/strongly in favor(-) of the act of kneeling, 
 - ±1 if the hashtag is significant in that it is close to the motives of the faction opposed (+)/for(-) the gesture, but not specific on the issue of "kneeling"
 - 0 for neutral and/or irrelevant hashtags.
+
+## `pos.pkl`
+File that is used to generate the positions of the of the network without allowing the algorithm to change the orientation of the nodes each time.
